@@ -1,4 +1,4 @@
-##  Word analogy task
+##  Word analogy Project
 "a is to b as c is to __".
 
 An example is:
