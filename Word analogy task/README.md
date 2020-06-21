@@ -10,16 +10,13 @@ We will measure the similarity between  eb−eaeb−ea  and  ed−eced−ec  usi
 
 # 1 - Cosine similarity
 
-To measure the similarity between two words, we need a way to measure the degree of similarity between two embedding vectors for the two words. Given two vectors $u$ and $v$, cosine similarity is defined as follows: 
-
-$$\text{CosineSimilarity(u, v)} = \frac {u \cdot v} {||u||_2 ||v||_2} = cos(\theta) \tag{1}$$
-
-* $u \cdot v$ is the dot product (or inner product) of two vectors
-* $||u||_2$ is the norm (or length) of the vector $u$
-* $\theta$ is the angle between $u$ and $v$. 
-* The cosine similarity depends on the angle between $u$ and $v$. 
-    * If $u$ and $v$ are very similar, their cosine similarity will be close to 1.
-    * If they are dissimilar, the cosine similarity will take a smaller value. 
+To measure the similarity between two words, we need a way to measure the degree of similarity between two embedding vectors for the two words. Given two vectors u and  v , cosine similarity is defined as follows: 
+<img src="images/cosine_law.png" style="width:800px;height:250px;">
+Figure 1:cosine_law
 
 <img src="images/cosine_sim.png" style="width:800px;height:250px;">
-<caption><center> **Figure 1**: The cosine of the angle between two vectors is a measure their similarity</center></caption>
+Figure 2: The cosine of the angle between two vectors is a measure their similarity
+
+<img src="images/ExpectedOutput.png" style="width:800px;height:250px;">
+Figure 3:Expected Output
+
