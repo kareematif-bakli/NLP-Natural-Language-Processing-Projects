@@ -7,8 +7,12 @@ The emojifier can automatically turn this into: "Congratulations on the promotio
 we will implement a model which inputs a sentence (such as "Let's go see the baseball game tonight!") 
 and finds the most appropriate emoji to be used with this sentence (baseball)
 
-# Using word vectors to improve emoji lookups
+### 2.1 - Overview of the model
 
+Here is the Emojifier-v2 you will implement:
+
+<img src="images/emojifier-v2.png" style="width:700px;height:400px;"> <br>
+<caption><center> **Figure 3**: Emojifier-V2. A 2-layer LSTM sequence classifier. </center></caption>
 
 #### Inputs and outputs to the embedding layer
 
