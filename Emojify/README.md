@@ -17,3 +17,13 @@ We can make a more flexible emoji interface by using word vectors!
 When using word vectors, you'll see that even if your training set explicitly relates only a few words to a particular emoji, your algorithm will be able to generalize and associate additional words in the test set to the same emoji.
 This works even if those additional words don't even appear in the training set.
 This allows you to build an accurate classifier mapping from sentences to emojis, even using a small training set.
+### 1.1 - Dataset EMOJISET
+
+Let's start by building a simple baseline classifier. 
+
+You have a tiny dataset (X, Y) where:
+- X contains 127 sentences (strings).
+- Y contains an integer label between 0 and 4 corresponding to an emoji for each sentence.
+
+<img src="Images/data_set.png" style="width:700px;height:300px;">
+<caption><center> Figure 1: EMOJISET - a classification problem with 5 classes. A few examples of sentences are given here. </center></caption>
