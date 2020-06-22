@@ -21,13 +21,23 @@ funny lol 😄
 lets play with a ball ⚾
 
 food is ready 🍴
+### 1.1 - Dataset EMOJISET
+
+Let's start by building a simple baseline classifier. 
+
+You have a tiny dataset (X, Y) where:
+- X contains 127 sentences (strings).
+- Y contains an integer label between 0 and 4 corresponding to an emoji for each sentence.
+
+<img src="Images/data_set.png" style="width:700px;height:300px;">
+<caption><center> Figure 1: EMOJISET - a classification problem with 5 classes. A few examples of sentences are given here. </center></caption>
 
 ### 2.1 - Overview of the model
 
 Here is the Emojifier-v2 you will implement:
 
 <img src="Images/emojifier-v2.png" style="width:700px;height:400px;"> <br>
-<caption><center>Figure 3: Emojifier-layer LSTM sequence classifier. </center></caption>
+<caption><center>Figure 2: Emojifier-layer LSTM sequence classifier. </center></caption>
 
 ### 2.2 - The Embedding layer
 
@@ -58,3 +68,4 @@ Here is the Emojifier-v2 you will implement:
     * The final dimension of the representation is  `(2,max_len,50)`. 
 
 <img src="Images/embedding1.png" style="width:700px;height:250px;">
+Figure 3:Inputs and outputs to the embedding layer
