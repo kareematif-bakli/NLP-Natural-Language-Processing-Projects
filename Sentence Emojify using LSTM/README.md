@@ -22,4 +22,4 @@ and finds the most appropriate emoji to be used with this sentence (baseball)
     * The word embeddings are 50 units in length.
     * The final dimension of the representation is  `(2,max_len,50)`. 
 
-<img src="images/embedding1.png" style="width:700px;height:250px;">
+<img src="Images/embedding1.png" style="width:700px;height:250px;">
