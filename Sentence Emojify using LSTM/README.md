@@ -23,4 +23,3 @@ and finds the most appropriate emoji to be used with this sentence (baseball)
     * The final dimension of the representation is  `(2,max_len,50)`. 
 
 <img src="images/embedding1.png" style="width:700px;height:250px;">
-<caption><center> **Figure 4**: Embedding layer</center></caption>
