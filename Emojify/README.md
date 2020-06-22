@@ -1,4 +1,4 @@
-# Emojify
+# Sentence Emojify
 
 we are going to use word vector representations to build an Emojifier.
 Have you ever wanted to make your text messages more expressive? Your emojifier app will help you do that. So rather than writing:
