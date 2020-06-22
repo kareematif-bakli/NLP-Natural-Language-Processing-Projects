@@ -27,7 +27,7 @@ food is ready 🍴
 Here is the Emojifier-v2 you will implement:
 
 <img src="Images/emojifier-v2.png" style="width:700px;height:400px;"> <br>
-<caption><center> **Figure 3**: Emojifier-V2. A 2-layer LSTM sequence classifier. </center></caption>
+<caption><center>Figure 3: Emojifier-layer LSTM sequence classifier. </center></caption>
 
 ### 2.2 - The Embedding layer
 
