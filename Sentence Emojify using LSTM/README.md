@@ -9,6 +9,11 @@ The emojifier can automatically turn this into:
 "Congratulations on the promotion! 👍 Let's get coffee and talk. ☕️ Love you! ❤️"
 
 You will implement a model which inputs a sentence (such as "Let's go see the baseball game tonight!") and finds the most appropriate emoji to be used with this sentence (⚾️).
+i adore you ❤️
+i love you ❤️
+funny lol 😄
+lets play with a ball ⚾
+food is ready 🍴
 
 ### 2.1 - Overview of the model
 
