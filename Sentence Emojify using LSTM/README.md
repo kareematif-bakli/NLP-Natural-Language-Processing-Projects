@@ -28,7 +28,22 @@ Here is the Emojifier-v2 you will implement:
 
 <img src="Images/emojifier-v2.png" style="width:700px;height:400px;"> <br>
 <caption><center> **Figure 3**: Emojifier-V2. A 2-layer LSTM sequence classifier. </center></caption>
+### 2.2 - The Embedding layer
 
+* In Keras, the embedding matrix is represented as a "layer".
+* The embedding matrix maps word indices to embedding vectors.
+    * The word indices are positive integers.
+    * The embedding vectors are dense vectors of fixed size.
+    * When we say a vector is "dense", in this context, it means that most of the values are non-zero.  As a counter-example, a one-hot encoded vector is not "dense."
+* The embedding matrix can be derived in two ways:
+    * Training a model to derive the embeddings from scratch. 
+    * Using a pretrained embedding
+    
+#### Using and updating pre-trained embeddings
+* In this part, you will learn how to create an [Embedding()](https://keras.io/layers/embeddings/) layer in Keras
+* You will initialize the Embedding layer with the GloVe 50-dimensional vectors. 
+* In the code below, we'll show you how Keras allows you to either train or leave fixed this layer.  
+* Because our training set is quite small, we will leave the GloVe embeddings fixed instead of updating them.
 #### Inputs and outputs to the embedding layer
 
 * The `Embedding()` layer's input is an integer matrix of size **(batch size, max input length)**. 
