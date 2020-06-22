@@ -10,7 +10,8 @@ The emojifier can automatically turn this into:
 
 You will implement a model which inputs a sentence (such as "Let's go see the baseball game tonight!") and finds the most appropriate emoji to be used with this sentence (⚾️).
 
-###Examples of Output:
+### Examples of Output:
+
 i adore you ❤️
 
 i love you ❤️
